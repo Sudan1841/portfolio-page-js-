@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Welcome - Entry-Level Web Developer</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+        body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+}
+
+header {
+  background-color: #333;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: block;
+}
+
+nav ul li a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
+
+main {
+  display: flex;
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav ul li {
+  margin-bottom: 10px;
+}
+
+.welcome-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  text-align: center;
+  animation: fadeIn 2s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.welcome-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 20px auto;
+  border: 5px solid #333;
+  animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="contact.html">Contact Me</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="welcome-section">
+      <h1>Welcome to My Home</h1>
+      <section>
+        <h2>Entry-Level Web Developer</h2>
+        <p>
+          I'm a student actively seeking entry-level web developer jobs.
+          My passion lies in creating dynamic and interactive web experiences that leave a lasting impression on users.
+          With a strong foundation in HTML, CSS, and JavaScript, I'm equipped to build responsive and user-friendly websites.
+          I also have experience with front-end frameworks such as React and Angular, which allow me to create robust and scalable applications.
+          Additionally, I'm proficient in back-end technologies like Node.js and PHP, enabling me to develop full-stack solutions.
+          I have a keen eye for design and strive to create visually appealing websites that align with modern trends and best practices.
+          Collaboration is one of my strengths, and I enjoy working in teams to tackle complex problems and deliver high-quality results.
+          Continuous learning is important to me, and I stay up to date with the latest web technologies and industry trends.
+          I'm an excellent problem solver and take a logical and systematic approach to find efficient solutions.
+          In addition to web development, I also have experience with Java, C++, and Android app development.
+          I'm enthusiastic about embarking on my web development career and making a positive impact through my work.
+        </p>
+      </section>
+    </div>
+
+    <div class="welcome-image"></div>
+  </main>
+</body>
+</html>
